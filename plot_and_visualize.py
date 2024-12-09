@@ -27,3 +27,5 @@ if __name__ == "__main__":
             if file.endswith('.wav'):
                 mfcc = extract_mfcc(os.path.join(root, file))
                 plot_mfcc(mfcc, title=file)
+                print(f"MFCC extracted for {file} \n")
+                print(mfcc)
