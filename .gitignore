@@ -1,2 +1,4 @@
 /dataset/
 *.zip
+*.pkl
+*.wav
